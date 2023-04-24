@@ -34,7 +34,7 @@ function App() {
       <div>{data !== undefined && data.map((d) => <div>{d.content}</div>)}</div>
       <form onSubmit={postContent}>
         <div className="field">
-          <label className="label">Isi content</label>
+          <label className="label">Tambah content</label>
           <div className="control">
             <input
               type="text"
