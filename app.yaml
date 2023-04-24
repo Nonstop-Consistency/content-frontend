@@ -1,4 +1,4 @@
-runtime: python39
+runtime: nodejs18
 service: default
 
 handlers:
