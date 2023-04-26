@@ -8,4 +8,7 @@ handlers:
 
   - url: /(.*\.(json|ico|js))$
     static_files: build/\1
-    upload: build/(.*)
+    upload: build/.*\.(json|ico|js)$
+
+  - url: /static
+    static_dir: build/static
