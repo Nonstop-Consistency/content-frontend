@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      <h1>Tugas App Engine</h1>
+      <h1>Tugas App Engine test</h1>
       <div>Data dari API:</div>
       <div>{data !== undefined && data.map((d) => <div>{d.content}</div>)}</div>
       <form onSubmit={postContent}>
